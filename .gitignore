@@ -1,3 +1,11 @@
+# Gradle
+build/
+.gradle
+
+#misc
+.DS_STORE
+*.swp
+
 # built application files
 *.apk
 *.ap_

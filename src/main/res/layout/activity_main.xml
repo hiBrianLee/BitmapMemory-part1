@@ -1,0 +1,37 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.tigerpenguin.lab.bitmapmemory.MainActivity"
+            tools:ignore="MergeRootFrame">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+        <TextView
+                style="@style/label"
+                android:text="Image Load"/>
+
+        <Button
+                style="@style/buttonStyle"
+                android:text="Simple Image Load"
+                android:onClick="onSimpleImageLoadClick"/>
+
+        <Button
+                style="@style/buttonStyle"
+                android:text="Sampled Image Load"
+                android:onClick="onSampledImageLoadClick"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="http://lab.tigerpenguin.com"
+                android:gravity="center"
+                android:autoLink="web"/>
+
+    </LinearLayout>
+
+</ScrollView>
