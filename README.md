@@ -8,13 +8,13 @@ See the original blog – http://lab.tigerpenguin.com
 Setup
 =====
 
-Checkout the project and run `gradle build`
-
+Checkout the project and run `./gradlew tasks` to see a list of available tasks.
+You can run `./gradlew installDebug` to build and install the apk. 
 
 IntelliJ Setup
 ==============
 
-Go to `File` -> `Import Project` and import the 'build.gradle' file.
+Go to `File` -> `Import Project` and import the 'settings.gradle' file.
 
 License
 =======
